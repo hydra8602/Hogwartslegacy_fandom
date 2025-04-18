@@ -1,0 +1,71 @@
+.mainposterwithnav{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0; 
+}
+.navbar-toggler {
+    z-index: 10; 
+}
+.NAVEDIT{
+    position: absolute;
+    top: -420px;
+    z-index: 5;
+    width: 100%;
+}
+nav{
+    background-color: #00000000;
+}
+
+.bgnavleft{
+    position: absolute;
+    top: 0%;
+    height: 10px;
+    opacity: 0.2;
+}
+
+.navimgleft{
+    height: 67px;
+    width: 100%;
+}
+
+.bgnavright{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 10px;
+    opacity: 0.2;
+}
+
+.navimgright{
+    height: 70px;
+    width: 100%;
+}
+
+.barleft{
+    position: absolute;
+    top: 8%;
+}
+
+.barimgleft{
+    width: 46%;
+}
+
+.barright{
+    position: absolute;
+    top: 57px;
+    left: 65%;
+}
+
+.barimgright{
+    width: 100%;
+}
+
+.fourhouse {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    height: 2900px;
+}
+
